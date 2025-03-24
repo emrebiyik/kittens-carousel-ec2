@@ -48,9 +48,9 @@ Resources:
           systemctl start httpd
           systemctl enable httpd
           cd /var/www/html
-          git clone https://github.com/ondiacademy/ondia-aws-devops-11-tr.git
-          cp -r ondia-aws-devops-11-tr/AWS/projects/101-kittens-carousel-static-website-ec2/static-web/* .
-          rm -rf ondia-aws-devops-11-tr
+          git clone https://github.com/emrebiyik/kittens-carousel-ec2.git
+          cp -r kittens-carousel-ec2/static-web/* .
+          rm -rf kittens-carousel-ec2
           systemctl restart httpd
 
 Outputs:
