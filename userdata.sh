@@ -8,7 +8,7 @@ cd /var/www/html
 
 FOLDER="https://raw.githubusercontent.com/emrebiyik/kittens-carousel-ec2/refs/heads/main/static-web"
 wget ${FOLDER}/index.html
-wget ${FOLDER}/ondia.png
+wget ${FOLDER}/title.png
 wget ${FOLDER}/cat0.jpg
 wget ${FOLDER}/cat1.jpg
 wget ${FOLDER}/cat2.jpg
